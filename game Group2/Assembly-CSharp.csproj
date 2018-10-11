@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E6D688E2-A8B8-4A2A-7E79-8B00E1CA3BCD}</ProjectGuid>
+    <ProjectGuid>{165D63E6-A9F4-3740-6ABD-707348351593}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -77,16 +77,16 @@
      <None Include="Assets\unity ui\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\unity ui\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/Users/miller/Desktop/UTSA/Game development/group2 copy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/Users/miller/Desktop/UTSA/Game development/game Group2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/miller/Desktop/UTSA/Game development/group2 copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/miller/Desktop/UTSA/Game development/game Group2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/miller/Desktop/UTSA/Game development/group2 copy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/miller/Desktop/UTSA/Game development/game Group2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/miller/Desktop/UTSA/Game development/group2 copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/miller/Desktop/UTSA/Game development/game Group2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -272,7 +272,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/miller/Desktop/UTSA/Game development/group2 copy/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/miller/Desktop/UTSA/Game development/game Group2/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
