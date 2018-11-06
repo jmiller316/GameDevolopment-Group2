@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Vast Outer Space/EXAMPLE/Demo_Scene_D.unity
+  isLoaded: 1
+  isActive: 1
