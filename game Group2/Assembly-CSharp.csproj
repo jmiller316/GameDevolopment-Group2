@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_8;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_8;UNITY_2018_2;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -53,29 +53,176 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharacterController\Scripts\BulletScript.cs" />
-     <Compile Include="Assets\CharacterController\Scripts\DestroyAfterTimeParticle.cs" />
-     <Compile Include="Assets\CharacterController\Scripts\GunInventory.cs" />
-     <Compile Include="Assets\CharacterController\Scripts\GunScript.cs" />
-     <Compile Include="Assets\CharacterController\Scripts\MouseLookScript.cs" />
-     <Compile Include="Assets\CharacterController\Scripts\PlayerMovementScript.cs" />
+     <Compile Include="Assets\InputManager.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
      <Compile Include="Assets\Scripts\QuitOnClick.cs" />
      <Compile Include="Assets\Scripts\SelectOnInput.cs" />
-     <Compile Include="Assets\unity ui\Scripts\ActiveStateToggler.cs" />
-     <Compile Include="Assets\unity ui\Scripts\ApplicationManager.cs" />
-     <Compile Include="Assets\unity ui\Scripts\ChangeColor.cs" />
-     <Compile Include="Assets\unity ui\Scripts\DragMe.cs" />
-     <Compile Include="Assets\unity ui\Scripts\DragPanel.cs" />
-     <Compile Include="Assets\unity ui\Scripts\DropMe.cs" />
-     <Compile Include="Assets\unity ui\Scripts\PanelManager.cs" />
-     <Compile Include="Assets\unity ui\Scripts\ResizePanel.cs" />
-     <Compile Include="Assets\unity ui\Scripts\ScrollDetailTexture.cs" />
-     <Compile Include="Assets\unity ui\Scripts\ShowSliderValue.cs" />
-     <Compile Include="Assets\unity ui\Scripts\TiltWindow.cs" />
-     <None Include="Assets\unity ui\Fonts\Jupiter\LICENSE.txt" />
-     <None Include="Assets\unity ui\Textures and Sprites\SF UI\Background\LICENSE.txt" />
-     <None Include="Assets\unity ui\Materials\UI-Default-No-Alpha.shader" />
+     <Compile Include="Assets\SimpleInputManager.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Additions\Info.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Additions\Marking.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\AIAnimatorHandler.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\AIAttack.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\AIBehaviour.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\AIFieldOfView.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\AIHealth.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\AISpawnManager.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\AI\PatrolSystem.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FootstepsSoundSystem.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FPClimb.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FPController.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FPCrouch.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FPGrab.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FPSBody.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\FPSwimming.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\IHealth.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\IInventory.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\InverseKinematics.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\KillCam.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\NGCurveControlledBob.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\NGHeadBob.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\NGLerpControlledBob.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\NGMouseLook.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\PickupWeapon.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\PlayerHealth.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\PlayerInventory.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\SpawnManager.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Character\TPController.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\UI\CanvasManager.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\UI\Crosshair.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\UI\HUDManager.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\UI\MenuManager.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Utility\Extension.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Utility\FiniteStateMachine.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Utility\Singleton.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\Ammunition\BulletType.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\Ammunition\Grenade.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\Ammunition\MeleeWeapon.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\Ammunition\PhysicsBullet.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\Ammunition\RayBullet.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\AudioHandler.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\SpreadSystem.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\Weapon.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\WeaponAnimationSystem.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\WeaponAttackSystem.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\WeaponHit.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\WeaponIdentifier.cs" />
+     <Compile Include="Assets\Unreal FPS\Core\Source\Weapon\WeaponReloadSystem.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Unreal FPS\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Unreal FPS\Prefab\Effects\Shared\Scripts\DecalDestroyer.cs" />
+     <Compile Include="Assets\Unreal FPS\Prefab\Effects\Shared\Scripts\GunAim.cs" />
+     <Compile Include="Assets\Unreal FPS\Prefab\Effects\Shared\Scripts\GunShoot.cs" />
+     <Compile Include="Assets\Unreal FPS\Prefab\Effects\Shared\Scripts\ParticleExamples.cs" />
+     <Compile Include="Assets\Unreal FPS\Prefab\Effects\Shared\Scripts\ParticleMenu.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Scripts\WaterTile.cs" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Unreal FPS\Shaders\SurfaceShader_VC.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Unreal FPS\Models\Weapons\Other\Scope\Zoom.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Unreal FPS\Scenes\Player Example\Enviropment\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Unreal FPS\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/miller/Desktop/UTSA/Game development/game Group2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
@@ -183,9 +330,6 @@
  </Reference>
  <Reference Include="UnityEngine.SharedInternalsModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTrackingModule">
- <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpriteMaskModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>

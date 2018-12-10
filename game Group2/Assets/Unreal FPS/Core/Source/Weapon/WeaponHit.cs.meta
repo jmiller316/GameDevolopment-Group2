@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: b8701e0a69cb6364d879076e85149821
+timeCreated: 1487406476
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - metalHitEffect: {instanceID: 0}
+  - sandHitEffect: {instanceID: 0}
+  - stoneHitEffect: {instanceID: 0}
+  - waterLeakEffect: {instanceID: 0}
+  - fleshHitEffects: {instanceID: 0}
+  - woodHitEffect: {instanceID: 0}
+  - anotherHitEffect: {instanceID: 0}
+  - metalHitSound: {instanceID: 0}
+  - sandHitSound: {instanceID: 0}
+  - stoneHitSound: {instanceID: 0}
+  - waterLeakSound: {instanceID: 0}
+  - fleshHitSound: {instanceID: 0}
+  - woodHitSound: {instanceID: 0}
+  - anotherHitSound: {instanceID: 0}
+  - muzzleFlash: {instanceID: 0}
+  - cartridgeEjection: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
